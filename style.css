@@ -14,7 +14,7 @@ html {
 body {
   font-family: 'Press Start 2P', sans-serif;
   color: #eee;
-  background-color: #222;
+  background-color: rgb(14, 12, 12);
   /* background-color: #60b347; */
 }
 
@@ -116,4 +116,23 @@ h1 {
 
 .label-score {
   margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .check {
+    margin-bottom: 1.5rem;
+  }
+  .again {
+    top: 40px;
+    left: 25%;
+  }
+  .between {
+    left: 20%;
+  }
 }
